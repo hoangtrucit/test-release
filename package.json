@@ -1,0 +1,34 @@
+{
+  "name": "test-release",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@hoangtrucit.github.com:hoangtrucit/test-release.git",
+  "author": "truc-tran-tpv-clv <truc.tran.tpv@one-line.com>",
+  "license": "MIT",
+  "scripts": {
+    "ri": "yarn release-it --changelog"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.1",
+    "release-it": "^17.6.0"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: update changelog v${version} [skip ci]"
+    },
+    "github": {
+      "release": false
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": {
+          "name": "conventionalcommits"
+        }
+      }
+    }
+  }
+}

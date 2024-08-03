@@ -1,6 +1,6 @@
 {
   "name": "test-release",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": "git@hoangtrucit.github.com:hoangtrucit/test-release.git",
   "author": "truc-tran-tpv-clv <truc.tran.tpv@one-line.com>",

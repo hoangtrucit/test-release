@@ -6,10 +6,12 @@
   "author": "truc-tran-tpv-clv <truc.tran.tpv@one-line.com>",
   "license": "MIT",
   "scripts": {
-    "ri": "yarn release-it --changelog"
+    "ri": "yarn release-it --changelog",
+    "cl": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^8.0.1",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "release-it": "^17.6.0"
   },
   "release-it": {

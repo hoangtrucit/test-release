@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "ri": "yarn release-it --changelog",
-    "cl": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "cl": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^8.0.1",
